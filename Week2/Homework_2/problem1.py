@@ -3,9 +3,9 @@ import datetime
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--num_y", help="the number of years", type=int)
+parser.add_argument("--num_y",type=int, default=0)
 
-parser.add_argument("--num_d", help="the number of days", type=int)
+parser.add_argument("--num_d",type=int, default=0)
 
 args = parser.parse_args()
 a = datetime.datetime.now()

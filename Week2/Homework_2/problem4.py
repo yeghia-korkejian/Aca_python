@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("text" , help="wow" , type=str)
+parser.add_argument("text" ,type=str)
 
 args = parser.parse_args()
 

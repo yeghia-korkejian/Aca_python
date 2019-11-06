@@ -2,11 +2,11 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("text", help="wow",type=str)
+parser.add_argument("text",type=str)
 
-parser.add_argument("first_word", help="wow", type=str)
+parser.add_argument("first_word",type=str)
 
-parser.add_argument("second_word", help="wow", type=str)
+parser.add_argument("second_word",type=str)
 
 args = parser.parse_args()
 
